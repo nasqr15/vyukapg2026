@@ -23,6 +23,26 @@ public class Main {
         }
 
 
+
+
+        Bod bodc = new Bod(boda.getX() - k1.getPolomer(), boda.getY() + k1.getPolomer() );
+
+        Ctverec c1 = new Ctverec(2* k1.getPolomer(), bodc);
+        Bod LevyHorniRoh = bodc;
+        Bod PravyHorniRoh = new Bod(c1.PravyHorniRohX(), c1.PravyHorniRohY());
+        Bod LevyDolniRoh = new Bod(c1.LevyDolniRohX(), c1.LevyDolniRohY());
+        Bod PravyDolniRoh = new Bod(c1.PravyDolniRohX(), c1.PravyDolniRohY());
+        System.out.println(c1);
+        System.out.println("LevyHorniRoh: " + LevyHorniRoh);
+        System.out.println("LevyDolniRoh; " + LevyDolniRoh);
+        System.out.println("LevyDolniRoh: " + LevyDolniRoh);
+        System.out.println("PravyDolniRoh: " + PravyDolniRoh);
+
+
+
+
+
+
     }
 
 
