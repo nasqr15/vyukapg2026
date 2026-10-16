@@ -25,7 +25,7 @@ public class Main {
 
 
 
-        Bod bodc = new Bod(boda.getX() - k1.getPolomer(), boda.getY() + k1.getPolomer() );
+        Bod bodc = new Bod(bodb.getX() - k1.getPolomer(), bodb.getY() + k1.getPolomer() );
 
         Ctverec c1 = new Ctverec(2* k1.getPolomer(), bodc);
         Bod LevyHorniRoh = bodc;
