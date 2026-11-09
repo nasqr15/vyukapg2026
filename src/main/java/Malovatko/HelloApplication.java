@@ -1,4 +1,4 @@
-package com.example.vyukapg2026;
+package Malovatko;
 
 import javafx.application.Application;
 import javafx.fxml.FXMLLoader;
