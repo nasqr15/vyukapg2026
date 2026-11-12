@@ -43,7 +43,7 @@ public class Obdelnik extends Hranaty{
     }
 
     public void Namaluj(Pane pane) {
-        Rectangle Obdelnik = new Rectangle(getSouradnice_LevyHorniRoh_X(), getSouradnice_LevyHorniRoh_Y());
+        Rectangle Obdelnik = new Rectangle(getSouradnice_LevyHorniRoh_X(), getSouradnice_LevyHorniRoh_Y(), getStrana_A(), getStrana_B());
         Obdelnik.setFill(Barva());
         pane.getChildren().add(Obdelnik);
     }

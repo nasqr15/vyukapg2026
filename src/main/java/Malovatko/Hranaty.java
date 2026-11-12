@@ -2,7 +2,7 @@ package Malovatko;
 
 import javafx.scene.paint.Color;
 
-public class Hranaty extends Tvar{
+public abstract class Hranaty extends Tvar{
     private double Souradnice_LevyHorniRoh_X;
     private double Souradnice_LevyHorniRoh_Y;
 

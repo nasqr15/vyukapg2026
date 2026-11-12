@@ -36,7 +36,7 @@ public class Ctverec extends Hranaty {
 
 
     public void Namaluj(Pane pane) {
-        Rectangle Ctverec = new Rectangle(getSouradnice_LevyHorniRoh_X(), getSouradnice_LevyHorniRoh_Y());
+        Rectangle Ctverec = new Rectangle(getSouradnice_LevyHorniRoh_X(), getSouradnice_LevyHorniRoh_Y(), getStranaCtverce(), getStranaCtverce());
         Ctverec.setFill(Barva());
         pane.getChildren().add(Ctverec);
     }

@@ -17,8 +17,24 @@ public class Trojuhelnik extends Hranaty{
         Bod3Y = bod3Y;
     }
 
+    public double getBod2X() {
+        return Bod2X;
+    }
+
+    public double getBod2Y() {
+        return Bod2Y;
+    }
+
+    public double getBod3X() {
+        return Bod3X;
+    }
+
+    public double getBod3Y() {
+        return Bod3Y;
+    }
+
     public void Namaluj(Pane pane) {
-        Polygon Trojuhlenik = new Polygon(getSouradnice_LevyHorniRoh_X(), getSouradnice_LevyHorniRoh_Y());
+        Polygon Trojuhlenik = new Polygon(getSouradnice_LevyHorniRoh_X(), getSouradnice_LevyHorniRoh_Y(), getBod2X(), getBod2Y(), getBod3X(), getBod3Y());
         Trojuhlenik.setFill(Barva());
         pane.getChildren().add(Trojuhlenik);
     }

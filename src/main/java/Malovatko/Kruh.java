@@ -1,6 +1,7 @@
 package Malovatko;
 
 import javafx.scene.layout.Pane;
+import javafx.scene.shape.Circle;
 import javafx.scene.shape.Rectangle;
 
 public class Kruh extends Kulaty{
@@ -10,10 +11,15 @@ public class Kruh extends Kulaty{
         super(StredSouradnice_X, StredSouradnice_Y);
         Polomer = polomer;
     }
+
+    public double getPolomer() {
+        return Polomer;
+    }
+
     public void Namaluj(Pane pane) {
-        Rectangle Obdelnik = new Rectangle(getSouradnice_LevyHorniRoh_X(), getSouradnice_LevyHorniRoh_Y());
-        Obdelnik.setFill(barva());
-        pane.getChildren().add(Obdelnik);
+        Circle Kruh = new Circle(getStredSouradnice_X(), getStredSouradnice_Y(), getPolomer());
+        Kruh.setFill(barva());
+        pane.getChildren().add(Kruh);
     }
 
 
