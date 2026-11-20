@@ -1,4 +1,4 @@
-package pisemkainterfaces;
+/*package pisemkainterfaces;
 
 public class Bod extends Obly {
     public Bod(double souradnice_Stred_X, double souradnice_Stred_Y) {
@@ -13,4 +13,4 @@ public class Bod extends Obly {
                 '}';
     }
 
-}
+}*/

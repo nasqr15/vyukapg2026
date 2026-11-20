@@ -1,4 +1,4 @@
-package pisemkainterfaces;
+/*package pisemkainterfaces;
 
 public class Tvar {
     public static void main(String[] args) {
@@ -16,4 +16,4 @@ public class Tvar {
         System.out.println(k2);
         System.out.println(b1);
     }
-}
+}*/

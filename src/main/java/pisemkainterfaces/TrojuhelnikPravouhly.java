@@ -1,4 +1,4 @@
-package pisemkainterfaces;
+/*package pisemkainterfaces;
 
 public class TrojuhelnikPravouhly extends Rohaty {
     private double OdvesnaO1;
@@ -33,4 +33,4 @@ public class TrojuhelnikPravouhly extends Rohaty {
 
 
 
-}
+}*/

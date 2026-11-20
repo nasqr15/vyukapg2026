@@ -1,4 +1,4 @@
-package pisemkainterfaces;
+/*package pisemkainterfaces;
 
 public class Ctverec extends Rohaty {
     private double StranaCtverce;
@@ -24,4 +24,4 @@ public class Ctverec extends Rohaty {
                 "obvod: " + obvod() +
                 '}';
     }
-}
+}*/

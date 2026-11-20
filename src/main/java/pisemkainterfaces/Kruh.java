@@ -1,4 +1,4 @@
-package pisemkainterfaces;
+/*package pisemkainterfaces;
 
 public class Kruh extends Obly implements Comparable<Tvar> {
     private double Polomer;
@@ -39,4 +39,4 @@ public class Kruh extends Obly implements Comparable<Tvar> {
         return 0;
 
     }
-}
+}*/
